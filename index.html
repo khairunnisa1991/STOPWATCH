@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 
+    <div>
+        <div id="hours">hours
+            <div id="displayhours">00</div>
+        </div>
+        <div id="mintues">mintues
+            <div id="displaymintues">00</div>
+        </div>
+        <div id="seconds">seconds
+            <div id="displayseconds">00</div>
+        </div>
+        <div id="miliseconds">miliseconds
+            <div id="displaymiliseconds">00</div>
+        </div>
+    </div>
+    <div>
+        <button id="startbtn">start</button>
+        <button id="stopbtn">stop</button>
+        <button id="resetbtn">reset</button>
+    </div> -->
+    <div class="container">
+        <h1>stopwatch</h1>
+
+    </div>
+
+    <div id="container">
+        <div id="time">
+            <span class="digit" id="hr">00</span>
+            <span class="text">hr</span>
+
+            <span class="digit" id="min">00</span>
+            <span class="text">min</span>
+
+            <span class="digit" id="sec">00</span>
+            <span class="text">sec</span>
+
+            <span class="digit" id="milisec">00</span>
+        
+            
+        </div>
+        <div id="btn-container">
+            <button onclick="start()" class="btn" id="startbtn">start</button>
+            <button onclick="stop()" class="btn" id="stopbtn">stop</button>
+            <button onclick="reset()" class="btn" id="resetbtn">reset</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
